@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+```markdown
+# 🗣️ Voz Negra
 
-First, run the development server:
+**Voz Negra** is a social impact web platform that allows marginalized individuals—especially Black communities, women, and other underrepresented groups—to **share real stories**, **report abuse**, and **inspire change** through their voices.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+🔗 [Live Website](https://voz-negra.vercel.app/)
+
+## 📌 Features
+
+- 📝 Share real-life stories anonymously or publicly
+- ❤️ Like and view stories shared by others
+- 🔍 Filter content by story type (e.g., Overcoming, Entrepreneurship, Complaint)
+- 💬 Encourage dialogue, awareness, and social support
+
+## 🚀 Technologies Used
+
+- **Next.js 15** – Full-stack React framework
+- **Tailwind CSS** – Utility-first CSS for responsive and modern UI
+- **TypeScript** – Type-safe JavaScript for better scalability
+- **Lucide Icons** – Modern and customizable icon library
+
+## 📷 Preview
+
+![voz-negra-preview](https://raw.githubusercontent.com/JuniorReisx/VOZ--NEGRA/main/public/preview.png)
+
+> *Note: If the image doesn't show, please update the path to the correct preview image in your repo.*
+
+## 💡 Project Goals
+
+- Provide a **safe space** for marginalized voices to be heard
+- Create **awareness** about social issues often silenced in society
+- Encourage **collective empathy**, **solidarity**, and **community empowerment**
+
+## 📂 Folder Structure (Simplified)
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+/src
+└── /app
+├── page.tsx         # Main page logic
+└── layout.tsx       # Global layout and metadata
+└── /components          # Reusable UI components
+└── /styles              # Tailwind and global styles
+/public                   # Static assets
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+````
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Installation (Development)
 
-## Learn More
+```bash
+# Clone the repository
+git clone https://github.com/JuniorReisx/VOZ--NEGRA.git
 
-To learn more about Next.js, take a look at the following resources:
+# Navigate to the project folder
+cd VOZ--NEGRA
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Install dependencies
+npm install
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Run development server
+npm run dev
+````
 
-## Deploy on Vercel
+Then open `http://localhost:3000` in your browser.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📦 Build for Production
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run build
+npm start
+```
+
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
