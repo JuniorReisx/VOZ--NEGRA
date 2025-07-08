@@ -2,7 +2,7 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Calendar, Users, BookOpen, Heart, Share2, ChevronRight, Star, MapPin, PlayCircle, Award, MessageCircle, Filter, Send, Sparkles, Zap, TrendingUp } from 'lucide-react';
+import { Menu, X, Calendar, Users, BookOpen, Heart, Share2, ChevronRight, MapPin, Award, MessageCircle, Send, Sparkles, Zap, TrendingUp } from 'lucide-react';
 import { Search, User, Bell } from 'lucide-react';
 
 export default function Home() {
